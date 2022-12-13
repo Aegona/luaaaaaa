@@ -78,22 +78,6 @@ end)
 	
 	
 	
-_G.Farm = true
-_G.BringMob = true
-
---[[
-
-_G.F = false
-_G.Farm = false
-_G.BringMob = false
-
-//
-
-_G.F = false
-_G.Farm = false
-_G.BringMob = false
-
-]]--
 
 function CheckQuest()
    local Lv =  game.Players.LocalPlayer.Data.Level.Value
@@ -509,4 +493,3 @@ end)
             end
         end
     end)
-
